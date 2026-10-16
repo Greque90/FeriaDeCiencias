@@ -1,5 +1,5 @@
 """
-Semana de la Ciencia · Matemática
+Semana de las Ciencias · MateMagia
 Ronda 1: "¡Puedo adivinar tu número!"  +  Código 11: "Descifrando el misterio matemático"
 
 Ejecutar:  streamlit run app.py
@@ -216,10 +216,10 @@ multiplicar por 11 "sin calcular") y llega a la *matemática* que la explica.
 
 def page_ronda1(docente: bool):
     st.subheader("Primera ronda: ¡puedo adivinar tu número!")
-    st.markdown("**El coordinador dice:** *«Pensá un número en secreto. No me lo digas. Hacé las siguientes operaciones, en orden, y al final contame solamente el resultado».*")
+    st.markdown("*«Pensá un número en secreto. No me lo digas. Hacé las siguientes operaciones, en orden, y al final contame solamente el resultado».*")
     st.markdown(
         """
-**El coordinador indica:**
+**Empecemos**
 1. Pensá un número.
 2. Multiplicalo por 3.
 3. Sumale 12.
